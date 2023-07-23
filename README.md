@@ -294,7 +294,7 @@ Use following Script
       stages{
         stage("Checkout"){
             steps{
-              git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+              git branch: 'maven-nexus', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
             }
         }
       }
@@ -315,7 +315,7 @@ pipeline {
   stages{
     stage("Checkout"){
         steps{
-          git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+          git branch: 'maven-nexus', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
         }
     }
 
@@ -346,7 +346,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+                git branch: 'mains', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
             }
         }
 
@@ -383,7 +383,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+                git branch: 'mains', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
             }
         }
 
@@ -434,7 +434,7 @@ pipeline {
         stages {
             stage("Checkout") {
                 steps {
-                    git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+                    git branch: 'main', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
                 }
             }
     
@@ -498,7 +498,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+                git branch: 'main', url: 'https://github.com/Tbashyb/eagles-batch-devops-projects.git'
             }
         }
 
@@ -576,7 +576,7 @@ pipeline {
     stages {
         stage("Checkout") {
             steps {
-                git branch: 'maven-nexus', url: 'https://github.com/showmikb/eagles-batch-devops-projects.git'
+                git branch: 'maven-nexus', url: 'https://github.com/Tbashy/eagles-batch-devops-projects.git'
             }
         }
 
